@@ -1,4 +1,55 @@
-﻿.intro img"hình jetjet.jpg" {
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: #e6e6e6;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+.intro {
+    display: flex;
+    border: 1px solid pink;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.intro img {
     width: 100px;
+    height: 100px;
     margin-right: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
 }
