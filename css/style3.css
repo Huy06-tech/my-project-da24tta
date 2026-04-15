@@ -1,0 +1,10 @@
+﻿a.button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 5px;
+    color: yellowgreen;
+    border: none;
+}

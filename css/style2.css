@@ -14,13 +14,13 @@ div.container{
     min-height: 40vh
 }
 form#frmLogin{
-    background-color: aquamarine;
+    background-color:burlywood;
     padding: 20px;
 }
 h3#title{
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:chartreuse;
+    color:darkgoldenrod;
     text-align: center;
 }
 div.form-group{
@@ -33,9 +33,19 @@ input.form-control{
     padding: 2px;
 }
 input.button{
-    background-color:crimson;
+    background-color:salmon;
     border-radius:5px;
     padding: 3px;
-    color:yellowgreen;
+    color:black;
     border:none;    
+}
+a.button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: salmon;
+    border-radius: 5px;
+    padding: 2px;
+    color: black;
+    border: none;
 }
