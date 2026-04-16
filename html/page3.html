@@ -3,23 +3,26 @@
 <head>
     <meta charset="utf-8">
     <title>Đăng ký</title>
-    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style3.css">
 </head>
 <body>
-<h2>Form đăng ký</h2>
-
-<form>
-    <label>Họ tên:</label>
-    <input type="text"><br><br>
-
-    <label>Email:</label>
-    <input type="email"><br><br>
-
-    <label>Mật khẩu:</label>
-    <input type="password"><br><br>
-
-    <button type="submit">Tạo tài khoản</button>
+<div class ="container">
+<form id="frmLogin">
+    <h2>Form đăng ký</h2>
+    <div class = "form-group">
+    <label for="txtName">Họ tên: </label>
+    <input class= "form-control" type="text" id="txtName" name="txtName"><br><br>
+    </div>
+    <div class = "form-group">
+    <label for="txtEmail">Email: </label>
+    <input class="form-control" type="email" id="txtEmail" name="txtEmail"><br><br>
+    </div>
+    <div class = "form-group">
+    <label for="txtPassword">Mật khẩu: </label>
+    <input class="form-control" type="password" id="txtPassword" name="txtPassword"><br><br>
+    </div>
+         <a class="button" href="../html/page4.html">Tạo tài khoản<a>
 </form>
-
+</div>
 </body>
 </html>
