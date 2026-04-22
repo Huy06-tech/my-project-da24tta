@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Hóa đơn thanh toán</title>
+     <link rel="stylesheet" href="../css/style5.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <button type="button" onclick = "add()">bấm dô đii</button>
+    </div>
+    <script>
+        function add(){
+            const myRow= document.createElement("div");
+            myRow.setAttribute("class","row");
+            const myText=document.createTextNode("Blanc1664");
+            myRow.appendChild(myText);
+            document.getElementById("container").appendChild(myRow);
+        }
+        </script>
+</body>
+</html>
