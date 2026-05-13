@@ -1,0 +1,69 @@
+﻿body {
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+/* KHUNG CHA */
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CARD SẢN PHẨM */
+.product-item {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* giúp cân đều */
+    height: 100%; /* cao bằng nhau */
+}
+
+/* ẢNH */
+.product-image {
+    height: 180px; /* cố định chiều cao */
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ảnh không méo */
+}
+
+/* THÔNG TIN */
+.product-info {
+    padding: 10px;
+    flex: 1; /* đẩy nút xuống dưới */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+/* NÚT LUÔN Ở DƯỚI */
+.product-info button {
+    margin-top: auto;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-info button:hover {
+    background: #0056b3;
+}
+
+/* HIỆU ỨNG */
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px #ccc;
+    transition: 0.3s;
+}
